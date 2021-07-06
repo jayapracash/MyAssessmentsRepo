@@ -2,10 +2,11 @@
 All my Challenge Tasks
 # Challenge1
 cd to terraform folder and run the below commands terraform commands
-1. terraform init 
-2. terraform plan -detailed-exitcode -var-file="${TF_VAR_FILE_PATH}"
-3. terraform apply -var-file="${TF_VAR_FILE_PATH}"
-4. terraform destroy -var-file="${TF_VAR_FILE_PATH}"
+1. export TF_VAR_FILE_PATH='../configs/dev/dev.tfvars'
+2. terraform init 
+3. terraform plan -detailed-exitcode -var-file="${TF_VAR_FILE_PATH}"
+4. terraform apply -var-file="${TF_VAR_FILE_PATH}"
+5. terraform destroy -var-file="${TF_VAR_FILE_PATH}"
 
 # Challenge2
 groovy code to get instance meta data in gcp 
