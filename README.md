@@ -6,8 +6,10 @@ All my Challenge Tasks
 # Challenge2
 groovy code to get instance meta data in gcp 
 run the below command in bash shell to invoke groovy script
+
 `groovy gcp_Metadata_Key '<GCP_Project_ID>' '<InstanceID>' '<keytofetch>'`
 # Challenge3
 Nestedobject function to find a key value
 run the below command in bash shell to invoke groovy script
+
 `groovy obj_nested_Key`
