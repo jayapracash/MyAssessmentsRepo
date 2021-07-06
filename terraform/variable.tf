@@ -1,6 +1,6 @@
 variable "AWS_PROFILE" {
   description = "Profile which is used to create resources on aws."
-  default = "reflex"
+  default = "anyreflex"
 }
 
 variable "ENVIRONMENT" {
@@ -135,12 +135,12 @@ variable "RDS_STORAGE_TYPE" {
 
 variable "INSTALL_APPLICATION" {
   description = "Holds path for file which installs application on application servers."
-  default = "../utility_scripts/installApplication.sh"
+  default = "someinstallApplication.sh"
 }
 
 variable "INSTALL_PROXY_SERVER" {
   description = "Holds path for file which installs proxy on proxy servers."
-  default = "../utility_scripts/installProxyServer.sh"
+  default = "someinstallProxyServer.sh"
 }
 
 variable "INTERNAL_HOSTED_ZONE" {
