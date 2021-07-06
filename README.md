@@ -1,8 +1,12 @@
 # MyAssessmentsRepo
 All my Challenge Tasks
 # Challenge1
-1. root level run terraform commands
-2.
+cd to terraform folder and run the below commands terraform commands
+1. terraform init 
+2. terraform plan -detailed-exitcode -var-file="${TF_VAR_FILE_PATH}"
+3. terraform apply -var-file="${TF_VAR_FILE_PATH}"
+4. terraform destroy -var-file="${TF_VAR_FILE_PATH}"
+
 # Challenge2
 groovy code to get instance meta data in gcp 
 run the below command in bash shell to invoke groovy script
