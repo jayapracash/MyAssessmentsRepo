@@ -21,4 +21,5 @@ run the below command in bash shell to invoke groovy script
 Expected Output: 
 
 `[grandX, parentY, childZ]
+
 getting child-Z value is ::  myselfIsValue`
