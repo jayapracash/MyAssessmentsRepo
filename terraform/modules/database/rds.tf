@@ -1,6 +1,6 @@
 resource "aws_db_instance" "rds_db_instance" {
   identifier = "maria-db"
-  name = "varun"
+  name = "myname"
   allocated_storage = "${var.RDS_DB_ALLOCATED_STORAGE}"
   storage_type = "${var.RDS_STORAGE_TYPE}"
   multi_az = "${var.RDS_DB_MULTI_AZ}"
