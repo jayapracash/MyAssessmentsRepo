@@ -1,6 +1,7 @@
 # MyAssessmentsRepo
 All my Challenge Tasks
 # Challenge1
+3-tier application in AWS Sample terraform code
 cd to terraform folder and run the below commands terraform commands
 1. export TF_VAR_FILE_PATH='../configs/dev/dev.tfvars'
 2. terraform init 
